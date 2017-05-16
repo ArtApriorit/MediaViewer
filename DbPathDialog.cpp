@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "DbPathDialog.h"
 #include "ui_DbPathDialog.h"
 #include <QFileDialog>

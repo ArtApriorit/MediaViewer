@@ -1,17 +1,13 @@
 #pragma once
 #include "stdafx.h"
 
-enum MediaType
-{
-    Image,
-    Gif,
-    Video
-};
-
 struct Media
 {
+    QString name;
     QString filePath;
     QString fileType;
     QString hyperlink;
     time_t publishedTime;
 };
+
+Q_DECLARE_METATYPE(Media)

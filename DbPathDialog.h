@@ -1,5 +1,4 @@
 #pragma once
-
 #include <QDialog>
 
 namespace Ui {
@@ -15,7 +14,7 @@ public:
     ~DbPathDialog();
 
 signals:
-    DbPathSelected(const QString &path);
+    void DbPathSelected(const QString &path);
 
 private slots:
     void on_btnCancel_clicked();
@@ -28,3 +27,4 @@ private:
 private:
     Ui::DbPathDialog *m_ui;
 };
+

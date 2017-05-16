@@ -29,7 +29,8 @@ SOURCES += main.cpp\
     MediaItemDelegate.cpp \
     DbPathDialog.cpp \
     ItemWidget.cpp \
-    MediaModel.cpp
+    MediaModel.cpp \
+    SortFilterProxy.cpp
 
 HEADERS  += MainMediaViewer.h \
     MediaParser.h \
@@ -38,7 +39,8 @@ HEADERS  += MainMediaViewer.h \
     MediaItemDelegate.h \
     DbPathDialog.h \
     ItemWidget.h \
-    MediaModel.h
+    MediaModel.h \
+    SortFilterProxy.h
 
 FORMS    += MainMediaViewer.ui \
     DbPathDialog.ui \

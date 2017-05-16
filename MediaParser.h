@@ -5,7 +5,7 @@
 class MediaParser
 {
 public:
-    MediaParser(const QString &backupPath);
+    explicit MediaParser(const QString &backupPath);
     ~MediaParser();
     void Parse(QVector<Media> &media_vt);
     void setDbPath(const QString &path);

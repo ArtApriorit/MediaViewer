@@ -6,3 +6,5 @@
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlTableModel>
+#include <QPaintDevice>
+#include <QPainter>
